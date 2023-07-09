@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <base href="%PUBLIC_URL%/" /> -->
+    <meta charset="utf-8" />
+    <link id="favicon" rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="flexible payment options for online food ordering customers"
+    />
+
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title id="page_title">Food App</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- <script>
+      async function getUsers(file) {
+        let url = file;
+        try {
+          let res = await fetch(url, {
+            headers: {
+              Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MzMxNmY1OGYxYjZhNzE3NjMzZWZkY2UiLCJpYXQiOjE2NjU2MzgwODgsImV4cCI6MjYxMjQwOTI4OCwidHlwZSI6ImFjY2VzcyIsInJvbGUiOiJBZG1pbiJ9.Atb0D42PUTvm4nsIpSo9L5dTnmSFysMSwhSfpyfRF-o`,
+            },
+          }).then((data) => data.json());
+          const favicon = document.getElementById("favicon");
+          favicon.setAttribute("href", `${res.data.favicon_logo}`);
+          document.title = `${res.data.restaurant_name ?? "7-Food App"}`;
+          return await res;
+        } catch (error) {
+          // console.log(error);
+        }
+      }
+      getUsers(`https://api.7food.zyko.app/v1/adminAuth/get-admin-data`);
+    </script> -->
+  </body>
+</html>
